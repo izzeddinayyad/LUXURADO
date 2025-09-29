@@ -213,10 +213,52 @@ body {
   .liked-section span{
     width: 40%;
     text-align: center;
+    color: var(--color-gray03);
   }
   .like,.dislike{
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+  .like span ,.dislike span{
+    color: #000;
+  }
+  .slider-section{
+    margin-top: 130px;
+    margin-bottom: 40px;
+    background: #000;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .slider-section img{
+    width: 63%;
+  }
+  footer{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  a{
+    color: rgba(18, 18, 18, 0.75);
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+  footer .links-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 70px;
+  }
+  a.underline{
+    text-decoration: underline;
+    color: #121212;
+  }
+  .email-section
 }
